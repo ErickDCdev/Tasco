@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: Fascinate Inline ;
+    src: url(assets/FascinateInline-Regular.ttf);
+}
+html{
+    font-family: Anek Latin;
+    background-image: url(https://64.media.tumblr.com/d0f1edaec58cf068fd4da9eb3598fdb2/e9d8bfc4c8918d3b-aa/s400x600/264dfe6c6456806a86e10cee64bdf07fb07b67e4.gif);
+    color:floralwhite;
+    background-size: cover !important;
+}
+#tascoLogo{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(5px 1px 0 rgb(153, 98, 36)) 
+    drop-shadow(-1px -1px 0 black);
+}
+#hboard{
+    margin: 0 auto;
+    padding: 0;
+    height: 0;
+}
+
+#board{
+    background-color: floralwhite;
+    margin-left: 5%;
+    padding: 0;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border: 10px solid black;
+    border-radius: 70px;
+}
+.input-group {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 160px;
+  }
+  
+  .submit-button {
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 0 px 16px 0 rgba(0, 0, 0, 0.24);
+    background: rgb(238, 236, 232);
+    border-radius: 0 10px 10px 0;
+    transition: 0.3s;
+  }
+  
+  .submit-button:hover {
+    transition: 0.3s;
+    background: linear-gradient(90deg, #e08c6b 0%, #e7e9f0 100%);
+    cursor: pointer;
+  }
+  
+  .submit-button:active {
+    transform: translate(0em, 0.2em);
+  }
+  
+  .submit-button span {
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #fcd146 0%, #e4661d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+  }
+  
+  .submit-button:hover span {
+    background: floralwhite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+  }
+  
+  #input-field {
+    margin-top: 5px;
+    background-color: rgb(238, 236, 232);
+    border-radius: 10px 0 0 10px;
+    border: none;
+    width: 300px;
+    padding-left: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+  }
+  
+  ::placeholder {
+    color: rgb(184, 184, 184);
+  }
+#bottomtxt{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 65%; right: 40%;
+}
