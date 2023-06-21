@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap" rel="stylesheet">
     <title>Tasco</title>
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <div class="title">
@@ -16,14 +16,11 @@
     </div>
     <div id="board">
         <div id="hboard" class="header">
-            <div class="input-container">
-                <div class="input-group">
-                    <input placeholder="Enter New Tasc" type="text" id="input-field">
-                    <button class="submit-button"><span onclick="newElement()">+</span></button>
-                </div>
-            </div>
-        </div>  
-        <h1 id="bottomtxt"style="color: black;">This is design only version</h1>
+                 <h1 style="color: black; text-align: center">Tasc-List</h1>
+                <input type="text"id="taskInput"class="task-input"placeholder="Enter a Tasc">
+            <ul id="taskList" class="task-list"></ul>
+        </div>
     </div>
+            <script src="script.js"></script>
 </body>
 </html>
