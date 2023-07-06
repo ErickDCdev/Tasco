@@ -89,7 +89,7 @@ function addItem(e) {
            <button class="delete-button"></button>
        `;
        const noStatusDiv = document.querySelector(".status:first-child");
-       noStatusDiv.appendChild(newListItem);
+       noStatusDiv.insertBefore(newListItem);
        itemInput.value = ""; // Clear input field
        // Attach event listeners to the new list item
        newListItem.addEventListener('dragstart', dragStart);
